@@ -15,7 +15,6 @@ export class ListaDeseosServices {
         this.listas.push(lista1);
         this.listas.push(lista2);
         this.listas.push(lista3);
-        console.log("hola funciona");
         
     }
 }
