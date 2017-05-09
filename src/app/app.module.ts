@@ -15,6 +15,7 @@ import { AgregarComponent } from "../pages/agregar/agregar.component";
 import { DetalleComponent } from "../pages/detalle/detalle.component";
 
 import { PlaceHolderPipe } from "./pipes/placeholder.pipe";
+import { PendientesPipe } from "./pipes/pendientes.pipe";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,6 +25,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     PlaceHolderPipe,
+    PendientesPipe,
     PendientesComponent,
     TerminadosComponent,
     AgregarComponent ,
